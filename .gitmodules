@@ -1,8 +1,8 @@
-[submodule "prereq/ts"]
-	path = prereq/ts
+[submodule "Enrollment/ts"]
+	path = Enrollment/ts
 	url = https://github.com/Mobius3-3/tb3-q3-prereq1
-[submodule "prereq/rs"]
-	path = prereq/rs
+[submodule "Enrollment/rs"]
+	path = Enrollment/rs
 	url = https://github.com/Mobius3-3/tb3-q3-prereq2
 [submodule "solana_starter"]
 	path = solana_starter

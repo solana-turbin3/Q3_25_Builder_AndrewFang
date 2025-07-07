@@ -10,7 +10,7 @@
 ## Week1
 
 - Spl ft & nft code task: 
-    - [spl_mint](solana_starter/ts/cluster1/spl_init.ts) | [spl_metadata](solana_starter/ts/cluster1/spl_metadata.ts) | [spl_mint](solana_starter/ts/cluster1/spl_mint.ts)
+    - [spl_init](solana_starter/ts/cluster1/spl_init.ts) | [spl_metadata](solana_starter/ts/cluster1/spl_metadata.ts) | [spl_mint](solana_starter/ts/cluster1/spl_mint.ts) | [blueshift_challenge](solana_starter/ts/cluster1/spl_challenge_blueshift.ts)
     - [nft_image](solana_starter/ts/cluster1/nft_image.ts) | [nft_metadata](solana_starter/ts/cluster1/nft_metadata.ts) | 
     [nft_mint](solana_starter/ts/cluster1/nft_mint.ts)
 

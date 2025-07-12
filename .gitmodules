@@ -10,3 +10,6 @@
 [submodule "AMM/vault"]
 	path = AMM/vault
 	url = https://github.com/Mobius3-3/vault
+[submodule "AMM/escrow"]
+	path = AMM/escrow
+	url = https://github.com/Mobius3-3/escrow

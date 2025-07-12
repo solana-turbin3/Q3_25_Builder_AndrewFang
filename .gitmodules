@@ -7,3 +7,6 @@
 [submodule "solana_starter"]
 	path = solana_starter
 	url = https://github.com/Mobius3-3/tb3-q3-solana_starter
+[submodule "AMM/vault"]
+	path = AMM/vault
+	url = https://github.com/Mobius3-3/vault

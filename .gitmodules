@@ -13,3 +13,6 @@
 [submodule "AMM/escrow"]
 	path = AMM/escrow
 	url = https://github.com/Mobius3-3/escrow
+[submodule "AMM/amm"]
+	path = AMM/amm
+	url = https://github.com/Mobius3-3/amm

@@ -35,7 +35,7 @@
 <summary><strong>Week2</strong></summary>
 
 - vault & escrow & amm: 
-    - [vault](AMM/vault/) | [escrow](AMM/escrow) | [amm](AMM/amm) 
+    - [vault](https://github.com/Mobius3-3/vault) | [escrow](https://github.com/Mobius3-3/escrow) | [amm](https://github.com/Mobius3-3/amm) 
 
 - Take-aways
     - Custody based on trustless onchain escrow is widely used on almost any defi application.

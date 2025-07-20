@@ -41,3 +41,37 @@
     - Custody based on trustless onchain escrow is widely used on almost any defi application.
     - Variable naming should be straightforwrd about the data referred to.
 </details>
+
+<details>
+<summary><strong>Week3</strong></summary>
+
+- nft stake & nft marketplace: 
+    - [nft stake](https://github.com/Mobius3-3/nft-stake) | [nft marketplace](https://github.com/Mobius3-3/nft-marketplace)
+
+- Take-aways
+    - If program is not specified, it uses crate::ID (your program's ID). Anchor resolves the PDA using something like this internally:
+        ```rust
+        let (pda, bump) = Pubkey::find_program_address(seeds, program_id);
+        ```
+    - A system account can be created and passed into instructions without being initialized with any custom data or logic. 
+        ```rust
+        #[account(
+            seeds = [b"treasury", marketplace.key().as_ref()],
+            bump,
+        )]
+        pub treasury: SystemAccount<'info>, // PDA owned by system program
+
+        ```
+    - If an account doesn’t require an exclusive signing authority, then it can be a random keypair or a program-derived address (PDA), such as an SPL Token mint — because no one needs to hold the private key to use it.
+     
+    - Data type hack:
+        - For numbers:
+            - Use the smallest type that safely fits your data (e.g., u8, u64, u128) to save account space.
+
+            - Use checked_add, checked_mul, checked_sub, etc., to avoid panics or logic bugs.
+
+            - Document max values explicitly if used for things like points, weights, or supply.
+
+        - For Strings: are variable-length, costly to store, and hard to compare efficiently on-chain.
+            - Convert user-facing strings (e.g. names, symbols, tags) to a fixed-size hash (e.g., Pubkey, [u8; 32], or u64 short hash).
+</details>

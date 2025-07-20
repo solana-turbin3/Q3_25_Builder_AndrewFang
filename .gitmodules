@@ -4,15 +4,15 @@
 [submodule "Enrollment/rs"]
 	path = Enrollment/rs
 	url = https://github.com/Mobius3-3/tb3-q3-prereq2
-[submodule "solana_starter"]
-	path = solana_starter
+[submodule "Week1"]
+	path = Week1
 	url = https://github.com/Mobius3-3/tb3-q3-solana_starter
-[submodule "AMM/vault"]
-	path = AMM/vault
+[submodule "Week2/vault"]
+	path = Week2/vault
 	url = https://github.com/Mobius3-3/vault
-[submodule "AMM/escrow"]
-	path = AMM/escrow
+[submodule "Week2/escrow"]
+	path = Week2/escrow
 	url = https://github.com/Mobius3-3/escrow
-[submodule "AMM/amm"]
-	path = AMM/amm
+[submodule "Week2/amm"]
+	path = Week2/amm
 	url = https://github.com/Mobius3-3/amm

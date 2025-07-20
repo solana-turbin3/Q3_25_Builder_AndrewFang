@@ -16,3 +16,9 @@
 [submodule "Week2/amm"]
 	path = Week2/amm
 	url = https://github.com/Mobius3-3/amm
+[submodule "Week3/nft-stake"]
+	path = Week3/nft-stake
+	url = https://github.com/Mobius3-3/nft-stake
+[submodule "Week3/nft-marketplace"]
+	path = Week3/nft-marketplace
+	url = https://github.com/Mobius3-3/nft-marketplace

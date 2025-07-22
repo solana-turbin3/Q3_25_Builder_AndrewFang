@@ -1,7 +1,9 @@
-# Q3_25_Builder_AndrewFang
+# 🔥 Q3 2025 Turbin3 Builder Cohort
+
+![Turbine Banner](https://pbs.twimg.com/profile_banners/1707159181914976256/1748632505/1500x500)
 
 <details>
-<summary><strong>Enrollment</strong></summary>
+<summary><strong>Enrollment - NFT mint (rs&ts)</strong></summary>
 
 - Prerequsites code task: [ts](prereq/ts) | [rs](prereq/rs)
 
@@ -10,7 +12,7 @@
 </details>
 
 <details>
-<summary><strong>Week1</strong></summary>
+<summary><strong>Week1 - SPL FT & NFT</strong></summary>
 
 - Spl ft & nft code task: 
     - [spl_init](solana_starter/ts/cluster1/spl_init.ts) | [spl_metadata](solana_starter/ts/cluster1/spl_metadata.ts) | [spl_mint](solana_starter/ts/cluster1/spl_mint.ts) | [blueshift_challenge](solana_starter/ts/cluster1/spl_challenge_blueshift.ts)
@@ -32,7 +34,7 @@
     - Tradeoffs among kit, web3.js, gill. 
 </details>
 <details>
-<summary><strong>Week2</strong></summary>
+<summary><strong>Week2 - FT Trade</strong></summary>
 
 - vault & escrow & amm: 
     - [vault](https://github.com/Mobius3-3/vault) | [escrow](https://github.com/Mobius3-3/escrow) | [amm](https://github.com/Mobius3-3/amm) 
@@ -43,7 +45,7 @@
 </details>
 
 <details>
-<summary><strong>Week3</strong></summary>
+<summary><strong>Week3 - NFT Stake & Trade</strong></summary>
 
 - nft stake & nft marketplace: 
     - [nft stake](https://github.com/Mobius3-3/nft-stake) | [nft marketplace](https://github.com/Mobius3-3/nft-marketplace)
@@ -75,3 +77,10 @@
         - For Strings: are variable-length, costly to store, and hard to compare efficiently on-chain.
             - Convert user-facing strings (e.g. names, symbols, tags) to a fixed-size hash (e.g., Pubkey, [u8; 32], or u64 short hash).
 </details>
+
+## 📬 Connect me
+
+✉️ [imfangcong@gmail.com](mailto:imfangcong@gmail.com)  
+🐦 X: [@andrew_f_c](https://twitter.com/andrew_f_c)
+
+_This submission represents my own work in accordance with academic integrity policies._

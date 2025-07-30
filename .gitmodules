@@ -22,3 +22,9 @@
 [submodule "Week3/nft-marketplace"]
 	path = Week3/nft-marketplace
 	url = https://github.com/Mobius3-3/nft-marketplace
+[submodule "Week4/dice"]
+	path = Week4/dice
+	url = https://github.com/Mobius3-3/dice
+[submodule "Week4/magicblock-counter"]
+	path = Week4/magicblock-counter
+	url = https://github.com/Mobius3-3/magicblock-counter

@@ -78,6 +78,24 @@
             - Convert user-facing strings (e.g. names, symbols, tags) to a fixed-size hash (e.g., Pubkey, [u8; 32], or u64 short hash).
 </details>
 
+<details>
+<summary><strong>Week4 - dice & magicblock_counter</strong></summary>
+
+- dice & magicblock counter: 
+    - [dice](https://github.com/Mobius3-3/dice) forked from @inspi-writer001  | [magicblock counter](https://github.com/Mobius3-3/magicblock-counter) forked from @brianobot
+
+- Take-aways
+    - **Test tips:** On-chain instruction invokes and state changes can be inspected locally in .anchor logs.
+
+        These logs are decoded (human-readable) and faster to analyze compared to scanning transactions on an on-chain explorer.
+
+    - **Capstone related:** Merkle tree proof verification has high cost in both byte size (large proofs) and computation units. Optimization in both areas is important:
+
+        - For hash function choice:
+            - Poseidon: extremely efficient (designed for zk constraints) in field computation.
+            - SHA‑2: good for non-zk implementation.
+</details>
+
 ## 📬 Connect me
 
 ✉️ [imfangcong@gmail.com](mailto:imfangcong@gmail.com)  

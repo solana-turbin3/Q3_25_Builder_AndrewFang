@@ -28,3 +28,9 @@
 [submodule "Week4/magicblock-counter"]
 	path = Week4/magicblock-counter
 	url = https://github.com/Mobius3-3/magicblock-counter
+[submodule "Capstone/smart-contracts"]
+	path = Capstone/smart-contracts
+	url = https://github.com/Descipline/descipline-smart-contracts
+[submodule "Capstone/frontend"]
+	path = Capstone/frontend
+	url = https://github.com/Descipline/descipline-frontend

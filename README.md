@@ -96,9 +96,19 @@
             - SHA‑2: good for non-zk implementation.
 </details>
 
+
+
+<details>
+<summary><strong>Capstone</strong></summary>
+
+- Refer to: [**Descipline**](https://github.com/Descipline)
+
+</details>
+
+
 ## 📬 Connect me
 
 ✉️ [imfangcong@gmail.com](mailto:imfangcong@gmail.com)  
-🐦 X: [@andrew_f_c](https://twitter.com/andrew_f_c)
+🐦 X: [@andrew_f_c](https://twitter.com/mobius3_3)
 
 _This submission represents my own work in accordance with academic integrity policies._
